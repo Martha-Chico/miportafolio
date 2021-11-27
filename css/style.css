@@ -35,8 +35,8 @@ body, html {
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
-  height: 50%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/grupo1.png");
+  height: 650px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -46,11 +46,16 @@ body, html {
 .hero-text {
   text-align: right;
   position: absolute;
-  top: 80%;
-  left: 80%;
+  top: 50%;
+  left: 60%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 150%;
+  font-size: 30px;
+  width: 50%;
+}
+
+.logo-hero{
+  width: 50%;
 }
 
 .button{
@@ -68,9 +73,27 @@ footer{
   padding: 30px 0;
   display: inline-block;
   width: 100%;
+  margin: 0;
 }
 
 .a{
   text-decoration: none;
   color: white;
+}
+
+.p-40{
+  padding: 100px 40px;
+  font-size: 20px;
+}
+
+.p-image{
+  padding: 50px;
+}
+
+.p-form{
+  padding: 30px 80px;
+}
+
+.background-color{
+  background-color: #996C35;
 }
