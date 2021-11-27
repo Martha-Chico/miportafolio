@@ -1,0 +1,76 @@
+.beige{
+    background-color: #C7B299;
+}
+.text-body{
+    font-family: 'Montserrat', sans-serif;
+}
+.bg-brown{
+  background-color: #996C35;
+}
+.text-brown{
+  color: #996C35;
+}
+.text-beige{
+  color: #C7B299;
+}
+.icons{
+  width: 5%;
+  float: left;
+}
+.p-contact{
+  width: 95%;
+}
+.logo{
+  width: 10%;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: right;
+  position: absolute;
+  top: 80%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 150%;
+}
+
+.button{
+  background-color: #996C35;
+  color: white;
+  border-color: #996C35;
+  border-radius: 8px;
+  border-width: thin;
+}
+
+footer{
+  text-align: left;
+  padding: 20px;
+  background-color: #C7B299;
+  padding: 30px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+.a{
+  text-decoration: none;
+  color: white;
+}
