@@ -1,30 +1,21 @@
-.beige{
-    background-color: #C7B299;
-}
-.text-body{
-    font-family: 'Montserrat', sans-serif;
-}
-.bg-brown{
-  background-color: #996C35;
-}
-.text-brown{
-  color: #996C35;
-}
-.text-beige{
-  color: #C7B299;
-}
-.icons{
-  width: 5%;
-  float: left;
-}
-.p-contact{
-  width: 95%;
-}
-.logo{
-  width: 10%;
+.beige {
+  background-color: #C7B299;
 }
 
-body{
+.text-body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.p-navbar{
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.logo {
+  width: 15%;
+}
+
+body {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -54,19 +45,81 @@ body, html {
   width: 50%;
 }
 
-.logo-hero{
+.title{
+  font-size: 50px;
+  font-weight: 700;
+  margin: 40px;
+}
+
+.logo-hero {
   width: 50%;
 }
 
-.button{
+.bg-brown {
+  background-color: #996C35;
+}
+
+.p-image {
+  padding: 50px;
+  margin: 50px auto;
+}
+
+.p-40 {
+  padding: 100px 40px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+
+.text-brown {
+  color: #996C35;
+  margin-top: 80px;
+}
+
+.text-beige {
+  color: #C7B299;
+}
+
+.icons {
+  width: 5%;
+  float: left;
+  margin-right: 15px;
+}
+
+.p-contact {
+  width: 95%;
+}
+
+.contact-padding{
+  padding: auto;
+}
+
+.contact {
+  margin-bottom: 80px;
+  font-size: 25px;
+}
+
+.p-form {
+  padding: 30px 80px;
+}
+
+.background-color {
+  background-color: #C7B299;
+}
+
+.label{
+  font-size: 20px;
+}
+
+.button {
   background-color: #996C35;
   color: white;
   border-color: #996C35;
-  border-radius: 8px;
+  border-radius: 9px;
   border-width: thin;
 }
 
-footer{
+footer {
   text-align: left;
   padding: 20px;
   background-color: #C7B299;
@@ -76,24 +129,25 @@ footer{
   margin: 0;
 }
 
-.a{
+.a {
   text-decoration: none;
   color: white;
+  margin-right: 45px;
+  font-size: 25px;
 }
 
-.p-40{
-  padding: 100px 40px;
+.icons-footer {
+  width: 10%;
+  margin-right: 15px;
+  float: left;
+}
+
+.logo-footer {
+  width: 90%;
+  margin: auto;
+}
+
+.copyright {
+  margin-right: 20%;
   font-size: 20px;
-}
-
-.p-image{
-  padding: 50px;
-}
-
-.p-form{
-  padding: 30px 80px;
-}
-
-.background-color{
-  background-color: #996C35;
 }

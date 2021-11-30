@@ -22,16 +22,16 @@
       <div class="collapse navbar-collapse" id="navbarBasic">
         <ul class="navbar-nav ms-auto mb-2 mb-xl-0 ">
           <li class="nav-item">
-            <a class="nav-link active text-white" aria-current="page" href="#">home</a>
+            <a class="nav-link active text-white p-navbar" aria-current="page" href="#">home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">about me</a>
+            <a class="nav-link text-white p-navbar" href="#">about me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">proyectos</a>
+            <a class="nav-link text-white p-navbar" href="#">proyectos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">contact</a>
+            <a class="nav-link text-white p-navbar" href="#">contact</a>
           </li>
         </ul>
       </div>
@@ -54,9 +54,9 @@
           <img class="img-fluid p-image" src="images/img_yo.png" alt="YO">
         </div>
         <div class="col-6 text-white p-40">
-          <h2 class="text-center">about me</h2>
+          <h2 class="text-center title">about me</h2>
           <p>hola, yo soy <strong>Martha Chico</strong>, estudiante de <strong>diseño
-            gráfico</strong> en la Universidad Anáhuac Cancún.</p>
+              gráfico</strong> en la Universidad Anáhuac Cancún.</p>
           <ul>
             <li>Adobe Illustrator</li>
             <li>Adobe Photoshop</li>
@@ -73,7 +73,7 @@
   </div>
   <!--Segunda seccion-->
   <div class="container">
-    <h2 class="text-center text-brown">proyectos</h2>
+    <h2 class="text-center text-brown title">proyectos</h2>
     <div class="row">
       <div class="col-3">
         <img class="img-fluid" src="images/1-red-ambiental.png" alt="red ambiental">
@@ -98,67 +98,70 @@
       <div class="col-4">
         <img class="img-fluid" src="images/7-libro-infantil.png" alt="Libro infantil">
       </div>
-
     </div>
-    <!--Tercera seccion-->
-    <hr>
-    <div class="container">
-      <h2 class="text-center text-brown">contact</h2>
+  </div>
+  <!--Tercera seccion-->
+  <hr>
+  <div class="container">
+    <h2 class="text-center text-brown title">contact</h2>
 
-      <div class="row">
-        <div class="col-6 text-beige mx-auto">
-          <div class="text-center">
-            <img class="img-fluid icons" src="images/tel-icono.png" alt="icono telefono">
-            <p class="text-right">984 179 0119</p>
-          </div>
-
-
+    <div class="row">
+      <div class="col-6 text-beige mx-auto m-auto contact-padding">
+        <div class="contact">
+          <img class="img-fluid icons" src="images/tel-icono.png" alt="icono telefono">
+          <p class="text-right">984 179 0119</p>
+        </div>
+        <div class="contact">
           <img class="img-fluid icons" src="images/mail-icono.png" alt="">
           <p>mhcc.309@gmail.com</p>
+        </div>
+        <div class="contact">
           <img class="img-fluid icons" src="images/loc-icono.png" alt="">
           <p>Cancún, Quintana Roo</p>
         </div>
+      </div>
 
-        <div class="col-6 text-brown p-form">
-          <form class="" action="index.html" method="post">
-            <label for="">nombre:</label> <br>
-            <input class="background-color" type="text" name="" value="">
-            <br><br>
-            <label for="">correo:</label><br>
-            <input class="background-color" type="email" name="" value="">
-            <br><br>
-            <label for="">teléfono:</label><br>
-            <input class="background-color" type="tel" name="" value="">
-            <br><br>
-            <label for="">mensaje:</label><br>
-            <textarea class="background-color" rows="4" cols="19"></textarea>
-            <br><br>
-            <input class="button align-center" type="button" name="" value="enviar">
-          </form>
-        </div>
+      <div class="col-6 text-brown p-form mx-auto">
+        <form class="" action="index.html" method="post">
+          <label class="label" for="">nombre:</label> <br>
+          <input class="background-color form-control" type="text" name="" value="">
+          <br><br>
+          <label class="label" for="">correo:</label><br>
+          <input class="background-color form-control" type="email" name="" value="">
+          <br><br>
+          <label class="label" for="">teléfono:</label><br>
+          <input class="background-color form-control" type="tel" name="" value="">
+          <br><br>
+          <label class="label" for="">mensaje:</label><br>
+          <textarea class="background-color form-control" rows="4" cols="19"></textarea>
+          <br><br>
+          <input class="btn button" type="button" name="" value="enviar">
+        </form>
       </div>
     </div>
-    <footer class="footer container-fluid">
-        <div class="row">
-      <div class="col-2">
-        <img src="images/logofooter.png" alt="">
+  </div>
+  <footer class="footer container-fluid">
+    <div class="row">
+      <div class="col-2 text-center">
+        <img class="logo-footer" src="images/logofooter.png" alt="logo">
       </div>
-      <div class="col-6 text-white">
+      <div class="col-6 text-center text-white">
         <a class="a" href="#">home</a>
         <a class="a" href="#">about me</a>
         <a class="a" href="#">proyectos</a>
         <a class="a" href="#">contact</a>
       </div>
       <div class="col-4">
-        <img src="images/insta-footer.png" alt="instagram">
-        <img src="images/twitter-footer.png" alt="twitter">
-        <img src="images/face-footer.png" alt="facebook">
+        <img class="icons-footer text-end" src="images/insta-footer.png" alt="instagram">
+        <img class="icons-footer text-end" src="images/twitter-footer.png" alt="twitter">
+        <img class="icons-footer text-end" src="images/face-footer.png" alt="facebook">
       </div>
-      <div class="row text-white">
-        <small>© 2021 Martha Chico</small>
-      </div>
-      </div>
-    </footer>
+    </div>
+    <div class="row text-white text-end copyright">
+      <small>© 2021 Martha Chico</small>
+    </div>
+
+  </footer>
 </body>
 
 </html>
